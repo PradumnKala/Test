@@ -865,7 +865,7 @@ input, select, textarea {
 		padding: 0.65em 0.75em;
 		background: none;
 		border: solid 2px #e5e6e7;
-		color: inherit;
+		color: #000000;
 		border-radius: 0.5em;
 		outline: none;
 	}
