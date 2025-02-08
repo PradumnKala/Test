@@ -217,3 +217,9 @@
 			});
 
 })(jQuery);
+
+// contact page choosen file name display
+document.getElementById("file-upload").addEventListener("change", function() {
+    const fileName = this.files[0] ? this.files[0].name : "No file chosen";
+    document.getElementById("file-name").textContent = fileName;
+});
